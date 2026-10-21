@@ -1,5 +1,5 @@
 'use strict';
-const CACHE = 'onde-iphone-shell-v1';
+const CACHE = 'onde-iphone-shell-v201';
 const BASE = new URL('./', self.location.href);
 const FILES = ['index.html','manifest.webmanifest','apple-touch-icon.png','icon-192.png','icon-512.png'].map(p=>new URL(p,BASE).href);
 self.addEventListener('install', event=>{
